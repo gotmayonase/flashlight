@@ -24,8 +24,16 @@
   device = [AVCaptureDevice defaultDeviceWithMediaType:AVMediaTypeVideo];
   if (![device hasTorch]) {
     [self.onOffButton setHidden:YES];
+  } else {
+    [self toggleLight:self.onOffButton];
   }
 	// Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+  if ([device hasTorch]) {
+    
+  }
 }
 
 - (void)didReceiveMemoryWarning
