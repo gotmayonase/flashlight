@@ -18,6 +18,20 @@
 		278FA3D11733F2BB00BFF07C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 278FA3D01733F2BB00BFF07C /* Default-568h@2x.png */; };
 		278FA3D41733F2BB00BFF07C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 278FA3D21733F2BB00BFF07C /* MainStoryboard.storyboard */; };
 		278FA3D71733F2BB00BFF07C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 278FA3D61733F2BB00BFF07C /* ViewController.m */; };
+		278FA3E41733F49500BFF07C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 278FA3E31733F49500BFF07C /* AVFoundation.framework */; };
+		278FA3E81733FC9900BFF07C /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 278FA3E71733FC9900BFF07C /* background.jpg */; };
+		278FA3ED1733FEB900BFF07C /* powerButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 278FA3E91733FEB900BFF07C /* powerButton.png */; };
+		278FA3EE1733FEB900BFF07C /* powerButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 278FA3EA1733FEB900BFF07C /* powerButton@2x.png */; };
+		278FA3EF1733FEB900BFF07C /* powerButtonActive.png in Resources */ = {isa = PBXBuildFile; fileRef = 278FA3EB1733FEB900BFF07C /* powerButtonActive.png */; };
+		278FA3F01733FEB900BFF07C /* powerButtonActive@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 278FA3EC1733FEB900BFF07C /* powerButtonActive@2x.png */; };
+		278FA3F21734000500BFF07C /* brightness@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 278FA3F11734000500BFF07C /* brightness@2x.png */; };
+		278FA3F41734007A00BFF07C /* brightness.png in Resources */ = {isa = PBXBuildFile; fileRef = 278FA3F31734007A00BFF07C /* brightness.png */; };
+		278FA3F7173400E100BFF07C /* dimness@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 278FA3F5173400E100BFF07C /* dimness@2x.png */; };
+		278FA3F8173400E100BFF07C /* dimness.png in Resources */ = {isa = PBXBuildFile; fileRef = 278FA3F6173400E100BFF07C /* dimness.png */; };
+		278FA3FA1734086C00BFF07C /* flashlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 278FA3F91734086C00BFF07C /* flashlight.png */; };
+		278FA3FC1734087300BFF07C /* 1367611095_flashlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 278FA3FB1734087300BFF07C /* 1367611095_flashlight.png */; };
+		278FA3FE173409EA00BFF07C /* flashLightIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 278FA3FD173409EA00BFF07C /* flashLightIcon.png */; };
+		278FA40017340A0E00BFF07C /* flashlightIconsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 278FA3FF17340A0D00BFF07C /* flashlightIconsmall.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +51,20 @@
 		278FA3D31733F2BB00BFF07C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		278FA3D51733F2BB00BFF07C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		278FA3D61733F2BB00BFF07C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		278FA3E31733F49500BFF07C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		278FA3E71733FC9900BFF07C /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		278FA3E91733FEB900BFF07C /* powerButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = powerButton.png; sourceTree = "<group>"; };
+		278FA3EA1733FEB900BFF07C /* powerButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "powerButton@2x.png"; sourceTree = "<group>"; };
+		278FA3EB1733FEB900BFF07C /* powerButtonActive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = powerButtonActive.png; sourceTree = "<group>"; };
+		278FA3EC1733FEB900BFF07C /* powerButtonActive@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "powerButtonActive@2x.png"; sourceTree = "<group>"; };
+		278FA3F11734000500BFF07C /* brightness@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "brightness@2x.png"; sourceTree = "<group>"; };
+		278FA3F31734007A00BFF07C /* brightness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brightness.png; sourceTree = "<group>"; };
+		278FA3F5173400E100BFF07C /* dimness@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dimness@2x.png"; sourceTree = "<group>"; };
+		278FA3F6173400E100BFF07C /* dimness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dimness.png; sourceTree = "<group>"; };
+		278FA3F91734086C00BFF07C /* flashlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flashlight.png; sourceTree = "<group>"; };
+		278FA3FB1734087300BFF07C /* 1367611095_flashlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1367611095_flashlight.png; sourceTree = "<group>"; };
+		278FA3FD173409EA00BFF07C /* flashLightIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flashLightIcon.png; sourceTree = "<group>"; };
+		278FA3FF17340A0D00BFF07C /* flashlightIconsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flashlightIconsmall.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				278FA3E41733F49500BFF07C /* AVFoundation.framework in Frameworks */,
 				278FA3BB1733F2BB00BFF07C /* UIKit.framework in Frameworks */,
 				278FA3BD1733F2BB00BFF07C /* Foundation.framework in Frameworks */,
 				278FA3BF1733F2BB00BFF07C /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +85,12 @@
 		278FA3AE1733F2BB00BFF07C = {
 			isa = PBXGroup;
 			children = (
+				278FA3FF17340A0D00BFF07C /* flashlightIconsmall.png */,
+				278FA3FD173409EA00BFF07C /* flashLightIcon.png */,
+				278FA3FB1734087300BFF07C /* 1367611095_flashlight.png */,
+				278FA3F91734086C00BFF07C /* flashlight.png */,
+				278FA3E31733F49500BFF07C /* AVFoundation.framework */,
+				278FA3E11733F3EA00BFF07C /* Resources */,
 				278FA3C01733F2BB00BFF07C /* flashflight */,
 				278FA3B91733F2BB00BFF07C /* Frameworks */,
 				278FA3B81733F2BB00BFF07C /* Products */,
@@ -105,6 +140,30 @@
 				278FA3D01733F2BB00BFF07C /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		278FA3E11733F3EA00BFF07C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				278FA3E21733F3EF00BFF07C /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		278FA3E21733F3EF00BFF07C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				278FA3F5173400E100BFF07C /* dimness@2x.png */,
+				278FA3F6173400E100BFF07C /* dimness.png */,
+				278FA3F31734007A00BFF07C /* brightness.png */,
+				278FA3F11734000500BFF07C /* brightness@2x.png */,
+				278FA3E91733FEB900BFF07C /* powerButton.png */,
+				278FA3EA1733FEB900BFF07C /* powerButton@2x.png */,
+				278FA3EB1733FEB900BFF07C /* powerButtonActive.png */,
+				278FA3EC1733FEB900BFF07C /* powerButtonActive@2x.png */,
+				278FA3E71733FC9900BFF07C /* background.jpg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +222,19 @@
 				278FA3CF1733F2BB00BFF07C /* Default@2x.png in Resources */,
 				278FA3D11733F2BB00BFF07C /* Default-568h@2x.png in Resources */,
 				278FA3D41733F2BB00BFF07C /* MainStoryboard.storyboard in Resources */,
+				278FA3E81733FC9900BFF07C /* background.jpg in Resources */,
+				278FA3ED1733FEB900BFF07C /* powerButton.png in Resources */,
+				278FA3EE1733FEB900BFF07C /* powerButton@2x.png in Resources */,
+				278FA3EF1733FEB900BFF07C /* powerButtonActive.png in Resources */,
+				278FA3F01733FEB900BFF07C /* powerButtonActive@2x.png in Resources */,
+				278FA3F21734000500BFF07C /* brightness@2x.png in Resources */,
+				278FA3F41734007A00BFF07C /* brightness.png in Resources */,
+				278FA3F7173400E100BFF07C /* dimness@2x.png in Resources */,
+				278FA3F8173400E100BFF07C /* dimness.png in Resources */,
+				278FA3FA1734086C00BFF07C /* flashlight.png in Resources */,
+				278FA3FC1734087300BFF07C /* 1367611095_flashlight.png in Resources */,
+				278FA3FE173409EA00BFF07C /* flashLightIcon.png in Resources */,
+				278FA40017340A0E00BFF07C /* flashlightIconsmall.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +335,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "flashflight/flashflight-Prefix.pch";
 				INFOPLIST_FILE = "flashflight/flashflight-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -274,6 +347,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "flashflight/flashflight-Prefix.pch";
 				INFOPLIST_FILE = "flashflight/flashflight-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

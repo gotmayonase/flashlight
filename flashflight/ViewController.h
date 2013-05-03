@@ -10,4 +10,11 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, strong) IBOutlet UISlider *slider;
+@property (nonatomic, strong) IBOutlet UIView *brightnesView;
+@property (nonatomic, strong) IBOutlet UIButton *onOffButton;
+
+- (IBAction)toggleLight:(id)sender;
+- (IBAction)sliderChanged:(id)sender;
+
 @end
