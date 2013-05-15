@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		274000261739524800CFE7D6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 274000251739524800CFE7D6 /* Default.png */; };
+		274000281739524C00CFE7D6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 274000271739524C00CFE7D6 /* Default-568h@2x.png */; };
+		2740002A1739524E00CFE7D6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 274000291739524E00CFE7D6 /* Default@2x.png */; };
+		2765BD7617394E760006C456 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2765BD7517394E760006C456 /* Icon.png */; };
+		2765BD7817394E7C0006C456 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2765BD7717394E7C0006C456 /* Icon@2x.png */; };
 		278FA3BB1733F2BB00BFF07C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 278FA3BA1733F2BB00BFF07C /* UIKit.framework */; };
 		278FA3BD1733F2BB00BFF07C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 278FA3BC1733F2BB00BFF07C /* Foundation.framework */; };
 		278FA3BF1733F2BB00BFF07C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 278FA3BE1733F2BB00BFF07C /* CoreGraphics.framework */; };
@@ -28,14 +33,15 @@
 		278FA3F41734007A00BFF07C /* brightness.png in Resources */ = {isa = PBXBuildFile; fileRef = 278FA3F31734007A00BFF07C /* brightness.png */; };
 		278FA3F7173400E100BFF07C /* dimness@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 278FA3F5173400E100BFF07C /* dimness@2x.png */; };
 		278FA3F8173400E100BFF07C /* dimness.png in Resources */ = {isa = PBXBuildFile; fileRef = 278FA3F6173400E100BFF07C /* dimness.png */; };
-		278FA3FA1734086C00BFF07C /* flashlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 278FA3F91734086C00BFF07C /* flashlight.png */; };
-		278FA3FC1734087300BFF07C /* 1367611095_flashlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 278FA3FB1734087300BFF07C /* 1367611095_flashlight.png */; };
-		278FA3FE173409EA00BFF07C /* flashLightIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 278FA3FD173409EA00BFF07C /* flashLightIcon.png */; };
-		278FA40017340A0E00BFF07C /* flashlightIconsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 278FA3FF17340A0D00BFF07C /* flashlightIconsmall.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		278FA3B71733F2BB00BFF07C /* flashflight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flashflight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		274000251739524800CFE7D6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		274000271739524C00CFE7D6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		274000291739524E00CFE7D6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		2765BD7517394E760006C456 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		2765BD7717394E7C0006C456 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		278FA3B71733F2BB00BFF07C /* Quick Light.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quick Light.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		278FA3BA1733F2BB00BFF07C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		278FA3BC1733F2BB00BFF07C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		278FA3BE1733F2BB00BFF07C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,10 +67,6 @@
 		278FA3F31734007A00BFF07C /* brightness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brightness.png; sourceTree = "<group>"; };
 		278FA3F5173400E100BFF07C /* dimness@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dimness@2x.png"; sourceTree = "<group>"; };
 		278FA3F6173400E100BFF07C /* dimness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dimness.png; sourceTree = "<group>"; };
-		278FA3F91734086C00BFF07C /* flashlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flashlight.png; sourceTree = "<group>"; };
-		278FA3FB1734087300BFF07C /* 1367611095_flashlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1367611095_flashlight.png; sourceTree = "<group>"; };
-		278FA3FD173409EA00BFF07C /* flashLightIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flashLightIcon.png; sourceTree = "<group>"; };
-		278FA3FF17340A0D00BFF07C /* flashlightIconsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flashlightIconsmall.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,10 +87,11 @@
 		278FA3AE1733F2BB00BFF07C = {
 			isa = PBXGroup;
 			children = (
-				278FA3FF17340A0D00BFF07C /* flashlightIconsmall.png */,
-				278FA3FD173409EA00BFF07C /* flashLightIcon.png */,
-				278FA3FB1734087300BFF07C /* 1367611095_flashlight.png */,
-				278FA3F91734086C00BFF07C /* flashlight.png */,
+				274000291739524E00CFE7D6 /* Default@2x.png */,
+				274000271739524C00CFE7D6 /* Default-568h@2x.png */,
+				274000251739524800CFE7D6 /* Default.png */,
+				2765BD7717394E7C0006C456 /* Icon@2x.png */,
+				2765BD7517394E760006C456 /* Icon.png */,
 				278FA3E31733F49500BFF07C /* AVFoundation.framework */,
 				278FA3E11733F3EA00BFF07C /* Resources */,
 				278FA3C01733F2BB00BFF07C /* flashflight */,
@@ -100,7 +103,7 @@
 		278FA3B81733F2BB00BFF07C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				278FA3B71733F2BB00BFF07C /* flashflight.app */,
+				278FA3B71733F2BB00BFF07C /* Quick Light.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -183,7 +186,7 @@
 			);
 			name = flashflight;
 			productName = flashflight;
-			productReference = 278FA3B71733F2BB00BFF07C /* flashflight.app */;
+			productReference = 278FA3B71733F2BB00BFF07C /* Quick Light.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -231,10 +234,11 @@
 				278FA3F41734007A00BFF07C /* brightness.png in Resources */,
 				278FA3F7173400E100BFF07C /* dimness@2x.png in Resources */,
 				278FA3F8173400E100BFF07C /* dimness.png in Resources */,
-				278FA3FA1734086C00BFF07C /* flashlight.png in Resources */,
-				278FA3FC1734087300BFF07C /* 1367611095_flashlight.png in Resources */,
-				278FA3FE173409EA00BFF07C /* flashLightIcon.png in Resources */,
-				278FA40017340A0E00BFF07C /* flashlightIconsmall.png in Resources */,
+				2765BD7617394E760006C456 /* Icon.png in Resources */,
+				2765BD7817394E7C0006C456 /* Icon@2x.png in Resources */,
+				274000261739524800CFE7D6 /* Default.png in Resources */,
+				274000281739524C00CFE7D6 /* Default-568h@2x.png in Resources */,
+				2740002A1739524E00CFE7D6 /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +289,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Mike Mayo";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Mike Mayo";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -300,6 +305,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "F79634F3-ECCB-48EF-9B36-B49E46784A1A";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F79634F3-ECCB-48EF-9B36-B49E46784A1A";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -316,7 +323,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Mike Mayo";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Mike Mayo";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -324,6 +332,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "F79634F3-ECCB-48EF-9B36-B49E46784A1A";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F79634F3-ECCB-48EF-9B36-B49E46784A1A";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -336,7 +346,7 @@
 				GCC_PREFIX_HEADER = "flashflight/flashflight-Prefix.pch";
 				INFOPLIST_FILE = "flashflight/flashflight-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Swift Lite";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -348,7 +358,7 @@
 				GCC_PREFIX_HEADER = "flashflight/flashflight-Prefix.pch";
 				INFOPLIST_FILE = "flashflight/flashflight-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Swift Lite";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -372,6 +382,7 @@
 				278FA3DC1733F2BB00BFF07C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

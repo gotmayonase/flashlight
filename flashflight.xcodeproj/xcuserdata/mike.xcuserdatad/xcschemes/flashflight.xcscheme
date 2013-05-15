@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "278FA3B61733F2BB00BFF07C"
-               BuildableName = "flashflight.app"
+               BuildableName = "Quick Light.app"
                BlueprintName = "flashflight"
                ReferencedContainer = "container:flashflight.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "278FA3B61733F2BB00BFF07C"
-            BuildableName = "flashflight.app"
+            BuildableName = "Quick Light.app"
             BlueprintName = "flashflight"
             ReferencedContainer = "container:flashflight.xcodeproj">
          </BuildableReference>
@@ -52,7 +52,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "278FA3B61733F2BB00BFF07C"
-            BuildableName = "flashflight.app"
+            BuildableName = "Quick Light.app"
             BlueprintName = "flashflight"
             ReferencedContainer = "container:flashflight.xcodeproj">
          </BuildableReference>
@@ -70,7 +70,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "278FA3B61733F2BB00BFF07C"
-            BuildableName = "flashflight.app"
+            BuildableName = "Quick Light.app"
             BlueprintName = "flashflight"
             ReferencedContainer = "container:flashflight.xcodeproj">
          </BuildableReference>

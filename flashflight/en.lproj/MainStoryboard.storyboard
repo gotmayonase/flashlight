@@ -62,11 +62,11 @@
                             <constraint firstItem="0h7-cu-p81" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="44O-N5-Ha5"/>
                             <constraint firstItem="0h7-cu-p81" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="76j-pv-sue"/>
                             <constraint firstAttribute="centerX" secondItem="HZt-Gt-WQN" secondAttribute="centerX" type="user" id="LqT-Gs-9g7"/>
+                            <constraint firstItem="HZt-Gt-WQN" firstAttribute="centerY" secondItem="3" secondAttribute="centerY" type="default" id="PWp-dR-N8h"/>
                             <constraint firstAttribute="centerX" secondItem="aA0-vp-lHX" secondAttribute="centerX" type="user" id="SZ2-N6-U7k"/>
-                            <constraint firstItem="aA0-vp-lHX" firstAttribute="top" secondItem="HZt-Gt-WQN" secondAttribute="bottom" constant="-17" type="user" id="VOH-F8-WMT"/>
                             <constraint firstItem="0h7-cu-p81" firstAttribute="top" secondItem="3" secondAttribute="top" type="user" id="b6n-mR-Y0o"/>
                             <constraint firstItem="HZt-Gt-WQN" firstAttribute="centerY" secondItem="0h7-cu-p81" secondAttribute="centerY" type="user" id="hpu-yP-0Bl"/>
-                            <constraint firstItem="0h7-cu-p81" firstAttribute="bottom" secondItem="3" secondAttribute="bottom" type="default" id="yXe-6h-8dL"/>
+                            <constraint firstAttribute="bottom" secondItem="aA0-vp-lHX" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="kr0-f8-K4g"/>
                         </constraints>
                     </view>
                     <connections>

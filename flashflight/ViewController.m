@@ -27,19 +27,23 @@
   } else {
     [self toggleLight:self.onOffButton];
   }
-	// Do any additional setup after loading the view, typically from a nib.
+  [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(becameActive) name:UIApplicationDidBecomeActiveNotification object:nil];
 }
 
-- (void)viewDidAppear:(BOOL)animated {
-  if ([device hasTorch]) {
-    
+-(void)becameActive {
+  if (self.onOffButton.selected) {
+    [self turnOnLight];
   }
+}
+
+-(void)viewDidUnload {
+  [[NSNotificationCenter defaultCenter] removeObserver:self];
+  [super viewDidUnload];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 - (void)toggleLight:(UIButton *)button {
